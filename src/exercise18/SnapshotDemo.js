@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from "react";
 
 const SnapshotDemo = () => {
   const [count, setCount] = useState(0);
@@ -21,7 +21,7 @@ const SnapshotDemo = () => {
   return (
     <div>
       <h1>State as a Snapshot Demo</h1>
-      <p>Count: {count}</p>
+      <p>Count: {count}</p> 
       <button onClick={handleIncrement}>Increment</button>
       <button onClick={handleSnapshot}>Take Snapshot</button>
       <button onClick={handleRestore}>Restore Snapshot</button>
